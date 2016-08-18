@@ -1,0 +1,6 @@
+allowedFields: ['name', 'email', 'comment']
+branch: 'gh-pages'
+filename: entry{@timestamp}
+format: yml
+path:"_data/lead"
+requiredFields: ['name', 'email', 'comment']
