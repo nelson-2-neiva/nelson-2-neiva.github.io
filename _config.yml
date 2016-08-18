@@ -4,3 +4,6 @@ filename: entry{@timestamp}
 format: yml
 path:"_data/lead"
 requiredFields: ['name', 'email', 'comment']
+moderation: true
+transforms:
+  email: 'md5'
